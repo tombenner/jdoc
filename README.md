@@ -13,8 +13,9 @@ Getting Started
 ---------------
 
 1. Install [jekyll](https://github.com/mojombo/jekyll)
-1. Clone the [jdoc-example](https://github.com/tombenner/jdoc-example) repo
-1. Start jekyll in that directory using `jekyll --server` ([read more](https://github.com/mojombo/jekyll/wiki/usage)) and see the site [here](http://localhost:4000/jdoc-example/)
+1. Clone [jdoc-example](https://github.com/tombenner/jdoc-example) recursively to include its submodule:  
+`git clone --recursive git://github.com/tombenner/jdoc-example.git`
+1. Start jekyll using `jekyll --server` ([read more](https://github.com/mojombo/jekyll/wiki/usage)) and see the site [here](http://localhost:4000/jdoc-example/)
 1. Edit the files in `documentation/` to start documenting!
 
 Tips:
