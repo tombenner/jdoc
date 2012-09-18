@@ -22,7 +22,6 @@ Tips:
 
 * You might want to use `jekyll --server --auto` to automatically regenerate the site when you modify files.
 * You can change the root URL of the site with the `baseurl` value in _config.yml.
-* A larger example can be found [here](https://github.com/tombenner/wp-mvc-doc).
 
 File Structure
 --------------
