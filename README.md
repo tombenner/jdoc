@@ -7,6 +7,8 @@ Description
 
 JDoc is a Jekyll plugin that lets you organize your documentation into a hierarchical file structure.  It was created primarily to generate [Project Pages](http://pages.github.com/) for large projects where the documentation needs to be organized hierarchically across multiple files.
 
+For example, [this code](https://github.com/tombenner/wp-mvc-doc/tree/master/documentation) produces [this result](http://wpmvc.org/).
+
 Getting Started
 ---------------
 
