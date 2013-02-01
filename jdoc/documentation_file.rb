@@ -34,7 +34,7 @@ module Jekyll::JDoc
         sort_file = File.read(sort_path)
         sorted_slugs = sort_file.lines.collect{|l| l.strip }
       else
-        sorted_slugs = Dir["#{slug}/*"].collect{|p| p.split("/").last.gsub(file_extension_regex, "") }.reject{|p| ["_sort", "index"].include?(p) }
+        sorted_slugs = Dir["#{slug}/*"].collect{|p| p.split("/").last.gsub(file_extension_regex, "") }.reject{|p| ["_sort", "index"].include?(p) }.sort
       end
       sorted_slugs.reject {|slug| slug.nil? || slug.empty?}
     end
